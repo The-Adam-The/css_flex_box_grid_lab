@@ -11,29 +11,44 @@ p {
     height: 270px;
     width: 300px;
     border-radius: 6px;
+    margin: 20px;
 }
 
 .italy-img {
-    background-image: url(../img/destination/italy.png)
+    background-image: url(../img/destination/italy.png);
+    grid-area: top-left;
 }
 
 .brazil-img {
-    background-image: url(../img/destination/brazil.png)
+    background-image: url(../img/destination/brazil.png);
+    grid-area: top-cent;
 }
 
 .america-img {
-    background-image: url(../img/destination/america.png)
+    background-image: url(../img/destination/america.png);
+    grid-area: top-right;
 }
 
 .nepal-img {
-    background-image: url(../img/destination/nepal.png)
+    background-image: url(../img/destination/nepal.png);
+    grid-area: bot-left;
 }
 
 .maldives-img {
-    background-image: url(../img/destination/maldives.png)
+    background-image: url(../img/destination/maldives.png);
+    grid-area: bot-cent;
 }
 
 .indonesia-img {
-    background-image: url(../img/destination/indonesia.png)
+    background-image: url(../img/destination/indonesia.png);
+    grid-area: bot-right;
+}
 
+.grid-container {
+    display: grid;
+    grid-template-areas:
+                        "top-left top-cent top-right"
+                        "bot-left bot-cent bot-right";
+    grid-template-columns: 4fr 4fr 4fr;
+    margin-left: 100px;
 }
