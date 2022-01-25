@@ -1,10 +1,11 @@
 .favourite {
   display: flex;
   justify-content: space-around;
+  padding: 20px 20px 10px 20px;
 }
 
 .fav-img {
-  width: 400px;
+  width: 350px;
   height: 200px;
 }
 

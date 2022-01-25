@@ -1,0 +1,39 @@
+
+h2,p{
+    text-align: center;
+}
+
+p {
+    color: grey;
+}
+
+.pop-destination-img {
+    height: 270px;
+    width: 300px;
+    border-radius: 6px;
+}
+
+.italy-img {
+    background-image: url(../img/destination/italy.png)
+}
+
+.brazil-img {
+    background-image: url(../img/destination/brazil.png)
+}
+
+.america-img {
+    background-image: url(../img/destination/america.png)
+}
+
+.nepal-img {
+    background-image: url(../img/destination/nepal.png)
+}
+
+.maldives-img {
+    background-image: url(../img/destination/maldives.png)
+}
+
+.indonesia-img {
+    background-image: url(../img/destination/indonesia.png)
+
+}
